@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: #f3f3f3;
+  margin: 0;
+}
+
+h1 {
+
+}
+
+header img {
+  width: 100%;
+}
+
+main h1, main p {
+  padding: 8px;
+}
+
+h1 {
+  font-family: "arcan";
+  color: #ff00cc;
+  text-align: left;
+}
+
+footer {
+  background: rgb(245,73,255);
+  background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
+  text-align: center;
+  font-family: 'arcan';
+}
+
+.choose p {
+  background: #f3f3f3;
+  color: #131313;
+  margin: 0;
+  text-align: justify;
+}
+
+
+img {
+  width: 100%;
+}
+
+.call_section {
+  text-align: center;
+}
+
+.call_div {
+  width: 40%;
+  background: rgb(245,73,255);
+  background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
+  border-radius: 60px 0px 20px 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.call_div img {
+  height: auto;
+  padding: 10px;
+}
+
+.old {
+  background: #131313;
+  text-align: justify;
+}
+
+@font-face {
+  font-family: 'arcan';
+  src: url(Arcane-Nine.ttf);
+}
