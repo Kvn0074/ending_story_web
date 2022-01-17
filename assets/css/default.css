@@ -1,5 +1,16 @@
+/* :root  {
+  --device-small : 576px;
+  --device-medium : 768px;
+  --device-large : 992px;
+} */
+
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'arcan';
+  src: url(../fonts/Arcane-Nine.ttf);
 }
 
 body {
@@ -8,16 +19,24 @@ body {
   margin: 0;
 }
 
-h1 {
-
+header  {
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  color: yellow;
+  text-align: right;
+  font-size: 5em;
+  right:20px;
+  top: 10px;
 }
 
-header img {
+img {
   width: 100%;
 }
 
 main h1, main p {
-  padding: 8px;
+  padding: 20px;
 }
 
 h1 {
@@ -41,9 +60,22 @@ footer {
 }
 
 
-img {
-  width: 100%;
+nav .navbar-brand {
+  width: 65%;
 }
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link{
+  text-align: right;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px){
+  nav .navbar-brand {
+    width: 20%;
+  }
+}
+
+
 
 .call_section {
   text-align: center;
@@ -68,9 +100,4 @@ img {
 .old {
   background: #131313;
   text-align: justify;
-}
-
-@font-face {
-  font-family: 'arcan';
-  src: url(Arcane-Nine.ttf);
 }
