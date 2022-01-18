@@ -30,6 +30,14 @@ h1 {
   text-align: left;
 }
 
+h2 {
+  font-family: "arcan";
+  color: #ff00cc;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 0.8rem;
+}
+
 /*=======================================
 =======| N A V B A R |===================
 =======================================*/
@@ -71,7 +79,7 @@ header h1 {
   top: 10px;
 }
 
-header .button_launch {
+header .button_head {
   background: none;
   color: #f3f3f3;
   font-family: "arcan";
@@ -157,6 +165,19 @@ main .choose .choose_text {
 }
 
 /*=======================================
+====| H I S T O R Y  S E C T I O N  |====
+=========================== we_are ====*/
+
+.we_are .history .party_1 {
+  margin-bottom: 0;
+}
+
+.we_are .history .img_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*=======================================
 =======| P A R T  S E C T I O N |========
 =======================================*/
 main .part_section{
@@ -196,7 +217,7 @@ main .call_section .call_div {
   background: linear-gradient(133deg, rgba(245,73,255,1) 0%,
               rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
   border-radius: 60px 0px 20px 60px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -207,11 +228,53 @@ main .call_section .call_div .call_img {
   padding: 10px;
 }
 
+.we_are .call_section .button_call {
+  background: none;
+  color: #f3f3f3;
+  font-family: "arcan";
+  font-size: 1em;
+  letter-spacing: 2px;
+  border: 3px #f3f3f3 solid;
+  border-radius: 2px;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+main .call_section a {
+  text-decoration: none;
+}
+
     /*===|| M E D I A S ||===*/
-    
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
   main .call_section .call_div {
     width: 35%;
+  }
+
+  .we_are .call_section .button_call{
+    width: 35%;
+    font-size: 2em;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  main .call_section .call_div {
+    width: 20%;
+  }
+
+  .we_are .call_section .button_call{
+    width: 20%;
+    font-size: 1em;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
