@@ -17,6 +17,7 @@ body {
   margin: 0;
   min-width: 300px;
   font-size: 16px;
+  font-family: Andale Mono, monospace;
 }
 
 img {
@@ -32,7 +33,10 @@ h1 {
 /*=======================================
 =======| N A V B A R |===================
 =======================================*/
-
+nav {
+  -webkit-box-shadow: -1px 8px 22px -7px #313131;
+  box-shadow: -1px 8px 22px -7px #313131;
+}
 nav .navbar-brand {
   width: 65%;
 }
@@ -103,7 +107,7 @@ header .button_launch {
   }
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1024px){
   header h1 {
     font-size: 8em;
   }
@@ -137,7 +141,7 @@ main .old {
 }
 
 main .old h1 {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /*=======================================
@@ -158,6 +162,7 @@ main .part_section{
   margin-top: 30px;
 }
 main .part_section .part_contain .part_row {
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -183,7 +188,7 @@ main .call_section {
 }
 
 main .call_section .call_div {
-  width: 40%;
+  width: 50%;
   background: rgb(245,73,255);
   background: linear-gradient(133deg, rgba(245,73,255,1) 0%,
               rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
@@ -199,11 +204,18 @@ main .call_section .call_div .call_img {
   padding: 10px;
 }
 
+@media screen and (min-width: 768px){
+  main .call_section .call_div {
+    width: 35%;
+  }
+}
+
 /*=======================================
 =======| F O O T E R |===================
 =======================================*/
 
 footer {
+  padding: 20px;
   background: rgb(245,73,255);
   background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
   text-align: center;
