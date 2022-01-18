@@ -87,6 +87,7 @@ header .button_launch {
   bottom: 20px;
 }
 
+    /*===|| M E D I A S ||===*/
 
 @media screen and (min-width: 400px) and (max-width: 649px){
   header h1 {
@@ -172,6 +173,8 @@ main .part_section .part_contain .part_row img {
   padding: 15px;
 }
 
+    /*===|| M E D I A S ||===*/
+
 @media screen and (min-width: 768px){
   main .part_section .part_contain .part_row img{
     height: 100px;
@@ -204,6 +207,8 @@ main .call_section .call_div .call_img {
   padding: 10px;
 }
 
+    /*===|| M E D I A S ||===*/
+    
 @media screen and (min-width: 768px){
   main .call_section .call_div {
     width: 35%;
