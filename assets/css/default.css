@@ -228,7 +228,7 @@ main .call_section .call_div .call_img {
   padding: 10px;
 }
 
-.we_are .call_section .button_call {
+main .call_section .button_call {
   background: none;
   color: #f3f3f3;
   font-family: "arcan";
@@ -255,7 +255,7 @@ main .call_section a {
     width: 35%;
   }
 
-  .we_are .call_section .button_call{
+  main .call_section .button_call{
     width: 35%;
     font-size: 2em;
     padding: 15px;
@@ -269,7 +269,7 @@ main .call_section a {
     width: 20%;
   }
 
-  .we_are .call_section .button_call{
+  main .call_section .button_call{
     width: 20%;
     font-size: 1em;
     padding: 15px;
