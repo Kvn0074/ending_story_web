@@ -1,8 +1,6 @@
-/* :root  {
-  --device-small : 576px;
-  --device-medium : 768px;
-  --device-large : 992px;
-} */
+/*=======================================
+=======| G L O B A L |===================
+=======================================*/
 
 * {
   box-sizing: border-box;
@@ -14,29 +12,15 @@
 }
 
 body {
-  background: black;
+  background: #212529;
   color: #f3f3f3;
   margin: 0;
-}
-
-header  {
-  position: relative;
-}
-header h1 {
-  position: absolute;
-  color: yellow;
-  text-align: right;
-  font-size: 5em;
-  right:20px;
-  top: 10px;
+  min-width: 300px;
+  font-size: 16px;
 }
 
 img {
   width: 100%;
-}
-
-main h1, main p {
-  padding: 20px;
 }
 
 h1 {
@@ -45,20 +29,9 @@ h1 {
   text-align: left;
 }
 
-footer {
-  background: rgb(245,73,255);
-  background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
-  text-align: center;
-  font-family: 'arcan';
-}
-
-.choose p {
-  background: #f3f3f3;
-  color: #131313;
-  margin: 0;
-  text-align: justify;
-}
-
+/*=======================================
+=======| N A V B A R |===================
+=======================================*/
 
 nav .navbar-brand {
   width: 65%;
@@ -69,22 +42,151 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link{
   padding-right: 20px;
 }
 
+    /*===|| M E D I A S ||===*/
+
 @media screen and (min-width: 768px){
   nav .navbar-brand {
     width: 20%;
   }
 }
 
+/*=======================================
+=======| H E A D E R |===================
+=======================================*/
+
+header  {
+  position: relative;
+}
+
+header h1 {
+  color: #f3f3f3;
+  text-align: right;
+  font-size: 2em;
+  position: absolute;
+  right:20px;
+  top: 10px;
+}
+
+header .button_launch {
+  background: none;
+  color: #f3f3f3;
+  font-family: "arcan";
+  font-size: 1em;
+  letter-spacing: 2px;
+  border: 3px #f3f3f3 solid;
+  border-radius: 2px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  right:20px;
+  bottom: 20px;
+}
 
 
-.call_section {
+@media screen and (min-width: 400px) and (max-width: 649px){
+  header h1 {
+    font-size: 3em;
+  }
+  header .button_launch {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1023px){
+  header h1 {
+    font-size: 5em;
+  }
+  header .button_launch {
+    font-size: 2.5em;
+    bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  header h1 {
+    font-size: 8em;
+  }
+  header .button_launch {
+    font-size: 4em;
+    bottom: 60px;
+  }
+}
+
+
+
+/*=======================================
+=======| M A I N |=======================
+=======================================*/
+
+main h1 {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+main p {
+  padding: 20px;
+}
+
+/*=======================================
+=======| O L D  S E C T I O N |==========
+=======================================*/
+
+main .old {
+  text-align: justify;
+}
+
+main .old h1 {
+  margin-top: 30px;
+}
+
+/*=======================================
+=======| C H O O S E  S E C T I O N  |===
+=======================================*/
+
+main .choose .choose_text {
+  background: #f3f3f3;
+  color: #131313;
+  margin: 0;
+  text-align: justify;
+}
+
+/*=======================================
+=======| P A R T  S E C T I O N |========
+=======================================*/
+main .part_section{
+  margin-top: 30px;
+}
+main .part_section .part_contain .part_row {
   text-align: center;
 }
 
-.call_div {
+main .part_section .part_contain .part_row img {
+  height: 80px;
+  width:auto;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px){
+  main .part_section .part_contain .part_row img{
+    height: 100px;
+    padding: 25px;
+  }
+}
+
+/*=======================================
+=======| C A L L  S E C T I O N |========
+=======================================*/
+
+main .call_section {
+  text-align: center;
+}
+
+main .call_section .call_div {
   width: 40%;
   background: rgb(245,73,255);
-  background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
+  background: linear-gradient(133deg, rgba(245,73,255,1) 0%,
+              rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
   border-radius: 60px 0px 20px 60px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -92,12 +194,22 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link{
   margin-right: auto;
 }
 
-.call_div img {
+main .call_section .call_div .call_img {
   height: auto;
   padding: 10px;
 }
 
-.old {
-  background: #131313;
-  text-align: justify;
+/*=======================================
+=======| F O O T E R |===================
+=======================================*/
+
+footer {
+  background: rgb(245,73,255);
+  background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
+  text-align: center;
+  font-family: 'arcan';
 }
+
+/*=======================================
+=========================================
+=======================================*/
