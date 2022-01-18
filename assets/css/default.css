@@ -38,6 +38,10 @@ h2 {
   font-size: 0.8rem;
 }
 
+p {
+  text-align: justify;
+}
+
 /*=======================================
 =======| N A V B A R |===================
 =======================================*/
@@ -178,8 +182,39 @@ main .choose .choose_text {
 }
 
 /*=======================================
+====| W H O  S E C T I O N  |============
+======================= conditions ====*/
+
+.conditions .for_who .who_text {
+  margin-bottom: 0;
+}
+
+/*=======================================
+====| P R I C E  S E C T I O N  |========
+======================= conditions ====*/
+
+.conditions .price .price_tab .price_type,
+.conditions .price .age .age_range {
+  color: #ff00cc;
+  font-weight: bolder;
+}
+
+.conditions .price .age {
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+.conditions .price .price_tab {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+/*=======================================
 =======| P A R T  S E C T I O N |========
 =======================================*/
+
 main .part_section{
   margin-top: 30px;
 }
