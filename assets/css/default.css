@@ -70,9 +70,6 @@ a {
   color: var(--whiteTES);
 }
 
-a :visited {
-  text-decoration: none;
-  color: var(--whiteTES);
 
 
 /*=======================================
