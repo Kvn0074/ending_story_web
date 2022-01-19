@@ -2,6 +2,15 @@
 =======| G L O B A L |===================
 =======================================*/
 
+:root {
+  --blackTES    : #212529;
+  --whiteTES    : #f3f3f3;
+  --pinkTES     : #ff00cc;
+  --shadowTES   : -1px 8px 22px -7px #313131;
+  --gradientTES : linear-gradient(133deg, rgba(254,143,239,1) 0%,
+                  rgba(255,0,204,1) 44%, rgba(175,1,105,1) 100%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,8 +21,8 @@
 }
 
 body {
-  background: #212529;
-  color: #f3f3f3;
+  background: var(--blackTES);
+  color: var(--whiteTES);
   margin: 0;
   min-width: 300px;
   font-size: 16px;
@@ -26,7 +35,7 @@ img {
 
 h1 {
   font-family: "arcan";
-  color: #ff00cc;
+  color: var(--pinkTES);;
   text-align: left;
   padding: 20px;
   padding-bottom: 0px;
@@ -35,7 +44,7 @@ h1 {
 
 h2 {
   font-family: "arcan";
-  color: #ff00cc;
+  color: var(--pinkTES);;
   text-align: left;
   padding-left: 30px;
   font-size: 0.8rem;
@@ -48,16 +57,25 @@ p {
 }
 
 .overline  {
-  color: #ff00cc;
+  color: var(--pinkTES);;
   font-weight: bolder;
+}
+
+.little_line {
+  font-size: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--whiteTES);
 }
 
 /*=======================================
 =======| N A V B A R |===================
 =======================================*/
 nav {
-  -webkit-box-shadow: -1px 8px 22px -7px #313131;
-  box-shadow: -1px 8px 22px -7px #313131;
+  -webkit-box-shadow: var(--shadowTES);
+  box-shadow: var(--shadowTES);
 }
 nav .navbar-brand {
   width: 65%;
@@ -85,7 +103,7 @@ header  {
 }
 
 header h1 {
-  color: #f3f3f3;
+  color: var(--whiteTES);
   text-align: right;
   font-size: 2em;
   position: absolute;
@@ -95,11 +113,11 @@ header h1 {
 
 header .button_head {
   background: none;
-  color: #f3f3f3;
+  color: var(--whiteTES);
   font-family: "arcan";
   font-size: 1em;
   letter-spacing: 2px;
-  border: 3px #f3f3f3 solid;
+  border: 3px var(--whiteTES); solid;
   border-radius: 2px;
   padding: 5px;
   padding-left: 30px;
@@ -157,7 +175,7 @@ main .old h1 {
 ======================= home ==========*/
 
 main .choose .choose_text {
-  background: #f3f3f3;
+  background: var(--whiteTES);;
   color: #131313;
   text-align: justify;
 }
@@ -195,17 +213,17 @@ main .choose .choose_text {
 
 .states .execut .carousel .carousel-inner
 .carousel_explic_div {
-  background: #f3f3f3;
-  color: #212529;
-  -webkit-box-shadow: -1px 8px 22px -7px #313131;
-  box-shadow: -1px 8px 22px -7px #313131;
+  background: var(--whiteTES);;
+  color: var(--blackTES);;
+  -webkit-box-shadow: var(--shadowTES);
+  box-shadow: var(--shadowTES);
 }
 
 .states .execut .carousel .carousel-inner
 .carousel_explic_div .title_explic_div {
   padding-top: 10px;
   padding-left: 10px;
-  color: #ff00cc;
+  color: var(--pinkTES);;
   font-family: "arcan";
   letter-spacing: 2px;
 }
@@ -265,9 +283,8 @@ main .call_section {
 
 main .call_section .call_div {
   width: 50%;
-  background: rgb(245,73,255);
-  background: linear-gradient(133deg, rgba(245,73,255,1) 0%,
-              rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
+  background: var(--pinkTES);
+  background: var(--gradientTES);
   border-radius: 60px 0px 20px 60px;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -282,11 +299,11 @@ main .call_section .call_div .call_img {
 
 main .call_section .button_call {
   background: none;
-  color: #f3f3f3;
+  color: var(--whiteTES);;
   font-family: "arcan";
   font-size: 1em;
   letter-spacing: 2px;
-  border: 3px #f3f3f3 solid;
+  border: 3px var(--whiteTES); solid;
   border-radius: 2px;
   width: 50%;
   margin: auto;
@@ -336,8 +353,8 @@ main .call_section a {
 
 footer {
   padding: 20px;
-  background: rgb(245,73,255);
-  background: linear-gradient(133deg, rgba(245,73,255,1) 0%, rgba(255,120,196,1) 44%, rgba(255,0,170,1) 100%);
+  background: var(--pinkTES);
+  background: var(--gradientTES);
   text-align: center;
   font-family: 'arcan';
 }
