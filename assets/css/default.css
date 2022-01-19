@@ -42,6 +42,11 @@ p {
   text-align: justify;
 }
 
+.overline  {
+  color: #ff00cc;
+  font-weight: bolder;
+}
+
 /*=======================================
 =======| N A V B A R |===================
 =======================================*/
@@ -192,12 +197,6 @@ main .choose .choose_text {
 /*=======================================
 ====| P R I C E  S E C T I O N  |========
 ======================= conditions ====*/
-
-.conditions .price .price_tab .price_type,
-.conditions .price .age .age_range {
-  color: #ff00cc;
-  font-weight: bolder;
-}
 
 .conditions .price .age {
   text-align: center;
