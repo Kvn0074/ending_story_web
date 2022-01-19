@@ -28,6 +28,9 @@ h1 {
   font-family: "arcan";
   color: #ff00cc;
   text-align: left;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 10px;
 }
 
 h2 {
@@ -39,7 +42,9 @@ h2 {
 }
 
 p {
+  padding: 20px;
   text-align: justify;
+  margin-bottom: 0;
 }
 
 .overline  {
@@ -135,24 +140,9 @@ header .button_head {
   }
 }
 
-
-
-/*=======================================
-=======| M A I N |=======================
-=======================================*/
-
-main h1 {
-  padding: 20px;
-  padding-bottom: 0px;
-}
-
-main p {
-  padding: 20px;
-}
-
 /*=======================================
 =======| O L D  S E C T I O N |==========
-=======================================*/
+======================= home ==========*/
 
 main .old {
   text-align: justify;
@@ -164,12 +154,11 @@ main .old h1 {
 
 /*=======================================
 =======| C H O O S E  S E C T I O N  |===
-=======================================*/
+======================= home ==========*/
 
 main .choose .choose_text {
   background: #f3f3f3;
   color: #131313;
-  margin: 0;
   text-align: justify;
 }
 
@@ -177,22 +166,12 @@ main .choose .choose_text {
 ====| H I S T O R Y  S E C T I O N  |====
 =========================== we_are ====*/
 
-.we_are .history .party_1 {
-  margin-bottom: 0;
-}
-
 .we_are .history .img_2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/*=======================================
-====| W H O  S E C T I O N  |============
-======================= conditions ====*/
-
-.conditions .for_who .who_text {
-  margin-bottom: 0;
-}
+/*margin au text*/
 
 /*=======================================
 ====| P R I C E  S E C T I O N  |========
@@ -211,8 +190,47 @@ main .choose .choose_text {
 }
 
 /*=======================================
+===| E X E C U T I O N  S E C T I O N  |=
+======================= states =========*/
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div {
+  background: #f3f3f3;
+  color: #212529;
+  -webkit-box-shadow: -1px 8px 22px -7px #313131;
+  box-shadow: -1px 8px 22px -7px #313131;
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div .title_explic_div {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ff00cc;
+  font-family: "arcan";
+  letter-spacing: 2px;
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div .text_explic_div {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.states .execut .text_party_2 {
+  padding-top: 35px;
+}
+
+/*=======================================
+===| E N D I N G  S E C T I O N  |=======
+======================= states =========*/
+
+.states .ending .ending_img {
+  margin-bottom: 50px;
+}
+
+/*=======================================
 =======| P A R T  S E C T I O N |========
-=======================================*/
+======================= home ==========*/
 
 main .part_section{
   margin-top: 30px;
@@ -290,7 +308,7 @@ main .call_section a {
   }
 
   main .call_section .button_call{
-    width: 35%;
+    width: 38%;
     font-size: 2em;
     padding: 15px;
     padding-left: 30px;
