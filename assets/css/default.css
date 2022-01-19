@@ -9,6 +9,7 @@
   --shadowTES   : -1px 8px 22px -7px #313131;
   --gradientTES : linear-gradient(133deg, rgba(254,143,239,1) 0%,
                   rgba(255,0,204,1) 44%, rgba(175,1,105,1) 100%);
+  --fontTES     : 'arcan'
 }
 
 * {
@@ -42,7 +43,7 @@ img {
 }
 
 h1 {
-  font-family: "arcan";
+  font-family: var(--fontTES);
   color: var(--pinkTES);;
   text-align: left;
   padding: 20px;
@@ -51,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-family: "arcan";
+  font-family: var(--fontTES);
   color: var(--pinkTES);;
   text-align: left;
   padding-left: 30px;
@@ -124,7 +125,7 @@ header h1 {
 header .button_head {
   background: none;
   color: var(--whiteTES);
-  font-family: "arcan";
+  font-family: var(--fontTES);
   font-size: 1em;
   letter-spacing: 2px;
   border: 3px var(--whiteTES) solid;
@@ -186,7 +187,7 @@ main .old h1 {
 
 main .choose .choose_text {
   background: var(--whiteTES);;
-  color: #131313;
+  color: var(--blackTES);
   text-align: justify;
 }
 
@@ -234,7 +235,7 @@ main .choose .choose_text {
   padding-top: 10px;
   padding-left: 10px;
   color: var(--pinkTES);;
-  font-family: "arcan";
+  font-family: var(--fontTES);
   letter-spacing: 2px;
 }
 
@@ -394,7 +395,7 @@ main .call_section .call_div .call_img {
 main .call_section .button_call {
   background: none;
   color: var(--whiteTES);
-  font-family: "arcan";
+  font-family: var(--fontTES);
   font-size: 1em;
   letter-spacing: 2px;
   border: 3px var(--whiteTES) solid;
@@ -450,7 +451,7 @@ footer {
   background: var(--pinkTES);
   background: var(--gradientTES);
   text-align: center;
-  font-family: 'arcan';
+  font-family: var(--fontTES);
 }
 
 /*=======================================
