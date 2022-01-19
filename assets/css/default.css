@@ -159,7 +159,6 @@ main .old h1 {
 main .choose .choose_text {
   background: #f3f3f3;
   color: #131313;
-  margin-top: 10px;
   text-align: justify;
 }
 
@@ -309,7 +308,7 @@ main .call_section a {
   }
 
   main .call_section .button_call{
-    width: 35%;
+    width: 38%;
     font-size: 2em;
     padding: 15px;
     padding-left: 30px;
