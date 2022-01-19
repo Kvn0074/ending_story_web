@@ -38,6 +38,15 @@ h2 {
   font-size: 0.8rem;
 }
 
+p {
+  text-align: justify;
+}
+
+.overline  {
+  color: #ff00cc;
+  font-weight: bolder;
+}
+
 /*=======================================
 =======| N A V B A R |===================
 =======================================*/
@@ -101,7 +110,7 @@ header .button_head {
   header h1 {
     font-size: 3em;
   }
-  header .button_launch {
+  header .button_head {
     font-size: 1.5em;
   }
 }
@@ -110,7 +119,7 @@ header .button_head {
   header h1 {
     font-size: 5em;
   }
-  header .button_launch {
+  header .button_head {
     font-size: 2.5em;
     bottom: 30px;
   }
@@ -120,7 +129,7 @@ header .button_head {
   header h1 {
     font-size: 8em;
   }
-  header .button_launch {
+  header .button_head {
     font-size: 4em;
     bottom: 60px;
   }
@@ -178,8 +187,33 @@ main .choose .choose_text {
 }
 
 /*=======================================
+====| W H O  S E C T I O N  |============
+======================= conditions ====*/
+
+.conditions .for_who .who_text {
+  margin-bottom: 0;
+}
+
+/*=======================================
+====| P R I C E  S E C T I O N  |========
+======================= conditions ====*/
+
+.conditions .price .age {
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+.conditions .price .price_tab {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+/*=======================================
 =======| P A R T  S E C T I O N |========
 =======================================*/
+
 main .part_section{
   margin-top: 30px;
 }
@@ -228,7 +262,7 @@ main .call_section .call_div .call_img {
   padding: 10px;
 }
 
-.we_are .call_section .button_call {
+main .call_section .button_call {
   background: none;
   color: #f3f3f3;
   font-family: "arcan";
@@ -255,7 +289,7 @@ main .call_section a {
     width: 35%;
   }
 
-  .we_are .call_section .button_call{
+  main .call_section .button_call{
     width: 35%;
     font-size: 2em;
     padding: 15px;
@@ -269,7 +303,7 @@ main .call_section a {
     width: 20%;
   }
 
-  .we_are .call_section .button_call{
+  main .call_section .button_call{
     width: 20%;
     font-size: 1em;
     padding: 15px;
