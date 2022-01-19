@@ -15,6 +15,14 @@
   box-sizing: border-box;
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(-45deg);
+  } to {
+    transform: rotate(45deg);
+  }
+}
+
 @font-face {
   font-family: 'arcan';
   src: url(../fonts/Arcane-Nine.ttf);
@@ -211,7 +219,7 @@ main .choose .choose_text {
 
 /*=======================================
 ===| E X E C U T I O N  S E C T I O N  |=
-======================= states =========*/
+======================= states ========*/
 
 .states .execut .carousel .carousel-inner
 .carousel_explic_div {
@@ -242,7 +250,7 @@ main .choose .choose_text {
 
 /*=======================================
 ===| E N D I N G  S E C T I O N  |=======
-======================= states =========*/
+======================= states ========*/
 
 .states .ending .ending_img {
   margin-bottom: 50px;
@@ -250,7 +258,7 @@ main .choose .choose_text {
 
 /*=======================================
 ===| F O R M  S E C T I O N  |===========
-======================= form ===========*/
+======================= form ==========*/
 
 .form .form_body {
   width: 100%;
@@ -296,6 +304,41 @@ main .choose .choose_text {
   border: 0;
   cursor: pointer;
 }
+
+/*=======================================
+===| P O S T  S E C T I O N  |===========
+======================= posted ========*/
+
+.posted .posted_body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: rgba(0,0,0,.75);
+  color: var(--whiteTES);
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+}
+
+.posted .posted_body .posted_img {
+  width: 30%;
+  margin: 20px;
+  animation: 1.5s linear 0s infinite alternate-reverse rotation;
+}
+
+.posted .posted_body .posted_title,
+.posted .posted_body .posted_text {
+  text-align: center;
+}
+
+    /*===|| M E D I A S ||===*/
+
+@media screen and (min-width: 768px){
+  .posted .posted_body .posted_img {
+    width: 15%;
+  }
+}
+
 
 /*=======================================
 =======| P A R T  S E C T I O N |========
