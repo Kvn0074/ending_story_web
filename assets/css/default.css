@@ -152,7 +152,7 @@ main p {
 
 /*=======================================
 =======| O L D  S E C T I O N |==========
-=======================================*/
+======================= home ==========*/
 
 main .old {
   text-align: justify;
@@ -164,7 +164,7 @@ main .old h1 {
 
 /*=======================================
 =======| C H O O S E  S E C T I O N  |===
-=======================================*/
+======================= home ==========*/
 
 main .choose .choose_text {
   background: #f3f3f3;
@@ -211,8 +211,40 @@ main .choose .choose_text {
 }
 
 /*=======================================
+===| E X E C U T I O N  S E C T I O N  |=
+======================= states =========*/
+
+.states .execut .text_party_1,
+.states .execut .text_party_2 {
+  margin-bottom: 0;
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div {
+  background: #f3f3f3;
+  color: #212529;
+  -webkit-box-shadow: -1px 8px 22px -7px #313131;
+  box-shadow: -1px 8px 22px -7px #313131;
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div .title_explic_div {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ff00cc;
+  font-family: "arcan";
+  letter-spacing: 2px;
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div .text_explic_div {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+/*=======================================
 =======| P A R T  S E C T I O N |========
-=======================================*/
+======================= home ==========*/
 
 main .part_section{
   margin-top: 30px;
