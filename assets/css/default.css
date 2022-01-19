@@ -57,7 +57,7 @@ p {
 }
 
 .overline  {
-  color: var(--pinkTES);;
+  color: var(--pinkTES);
   font-weight: bolder;
 }
 
@@ -69,6 +69,11 @@ a {
   text-decoration: none;
   color: var(--whiteTES);
 }
+
+a :visited {
+  text-decoration: none;
+  color: var(--whiteTES);
+
 
 /*=======================================
 =======| N A V B A R |===================
