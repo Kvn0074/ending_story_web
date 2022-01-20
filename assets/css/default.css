@@ -9,7 +9,8 @@
   --shadowTES   : -1px 8px 22px -7px #313131;
   --gradientTES : linear-gradient(133deg, rgba(254,143,239,1) 0%,
                   rgba(255,0,204,1) 44%, rgba(175,1,105,1) 100%);
-  --fontTES     : 'arcan'
+  --fontTES     : 'arcan';
+  --shadowTitle : 0px 0px 9px rgba(150, 150, 150, 1);
 }
 
 * {
@@ -112,7 +113,7 @@ nav .navbar-collapse .navbar-nav .nav-item .nav-link{
 
 header  {
   position: relative;
-
+  margin-bottom: 15px;
 }
 
 .head_home .head_home_title {
@@ -122,6 +123,20 @@ header  {
   position: absolute;
   right:20px;
   top: 10px;
+  text-shadow: var(--shadowTitle);
+}
+
+.head_we_are .head_we_are_title,
+.head_conditions .head_conditions_title,
+.head_states .head_states_title,
+.head_contact .head_contact_title {
+  color: var(--whiteTES);
+  text-align: left;
+  font-size: 2em;
+  position: absolute;
+  left:20px;
+  bottom: 20px;
+  text-shadow: var(--shadowTitle);
 }
 
 .head_home .head_home_button {
@@ -143,18 +158,28 @@ header  {
     /*===|| M E D I A S ||===*/
 
 @media screen and (min-width: 400px) and (max-width: 649px){
-  .head_home .head_home_title {
+  .head_home .head_home_title,
+  .head_we_are .head_we_are_title,
+  .head_conditions .head_conditions_title,
+  .head_states .head_states_title,
+  .head_contact .head_contact_title {
     font-size: 3em;
   }
+
   .head_home .head_home_button {
     font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 650px) and (max-width: 1023px){
-  .head_home .head_home_title {
+  .head_home .head_home_title,
+  .head_we_are .head_we_are_title,
+  .head_conditions .head_conditions_title,
+  .head_states .head_states_title,
+  .head_contact .head_contact_title {
     font-size: 5em;
   }
+
   .head_home .head_home_button {
     font-size: 2.5em;
     bottom: 30px;
@@ -162,9 +187,14 @@ header  {
 }
 
 @media screen and (min-width: 1024px){
-  .head_home .head_home_title {
+  .head_home .head_home_title,
+  .head_we_are .head_we_are_title,
+  .head_conditions .head_conditions_title,
+  .head_states .head_states_title,
+  .head_contact .head_contact_title {
     font-size: 8em;
   }
+
   .head_home .head_home_button {
     font-size: 4em;
     bottom: 90px;
