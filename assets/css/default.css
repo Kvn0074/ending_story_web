@@ -100,9 +100,11 @@ a {
 nav {
   -webkit-box-shadow: var(--shadowTES);
   box-shadow: var(--shadowTES);
+  opacity: 0.95;
 }
 nav .navbar-brand {
   width: 65%;
+  opacity: 1;
 }
 
 nav .navbar-collapse .navbar-nav .nav-item .nav-link {
