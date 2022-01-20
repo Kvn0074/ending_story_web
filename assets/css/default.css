@@ -144,7 +144,8 @@ header  {
 .head_we_are .head_we_are_title,
 .head_conditions .head_conditions_title,
 .head_states .head_states_title,
-.head_contact .head_contact_title {
+.head_contact .head_contact_title,
+.head_events .head_events_title {
   color: var(--whiteTES);
   text-align: left;
   font-size: 2em;
@@ -177,7 +178,8 @@ header  {
   .head_we_are .head_we_are_title,
   .head_conditions .head_conditions_title,
   .head_states .head_states_title,
-  .head_contact .head_contact_title {
+  .head_contact .head_contact_title,
+  .head_events .head_events_title {
     font-size: 3em;
   }
 
@@ -191,7 +193,8 @@ header  {
   .head_we_are .head_we_are_title,
   .head_conditions .head_conditions_title,
   .head_states .head_states_title,
-  .head_contact .head_contact_title {
+  .head_contact .head_contact_title,
+  .head_events .head_events_title {
     font-size: 5em;
   }
 
@@ -206,7 +209,8 @@ header  {
   .head_we_are .head_we_are_title,
   .head_conditions .head_conditions_title,
   .head_states .head_states_title,
-  .head_contact .head_contact_title {
+  .head_contact .head_contact_title,
+  .head_events .head_events_title {
     font-size: 8em;
   }
 
@@ -294,6 +298,19 @@ main .choose .choose_text {
 
 .states .execut .text_party_2 {
   padding-top: 35px;
+}
+
+/*=======================================
+===| P U B L I C  S E C T I O N  |=======
+======================= events ========*/
+
+.events .public .public_meet {
+  width: 80%;
+  padding: 15px;
+  border: 2px var(--pinkTES) solid;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*=======================================
