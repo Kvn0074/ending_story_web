@@ -301,19 +301,6 @@ main .choose .choose_text {
 }
 
 /*=======================================
-===| P U B L I C  S E C T I O N  |=======
-======================= events ========*/
-
-.events .public .public_meet {
-  width: 80%;
-  padding: 15px;
-  border: 2px var(--pinkTES) solid;
-  border-radius: 2px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*=======================================
 ===| E N D I N G  S E C T I O N  |=======
 ======================= states ========*/
 
@@ -369,6 +356,68 @@ main .choose .choose_text {
   border: 0;
   cursor: pointer;
 }
+
+/*=======================================
+===| P U B L I C  S E C T I O N  |=======
+======================= events ========*/
+
+.events .meeting .meeting_div {
+  width: 80%;
+  padding: 15px;
+  border: 2px var(--pinkTES) solid;
+  border-radius: 2px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events .tab {
+  margin-bottom: 50px;
+}
+
+.events .tab .events_tab {
+  margin-left: 20px;
+  width: 80%;
+  border-radius: 5px;
+  -webkit-box-shadow: var(--shadowTES);
+  box-shadow: var(--shadowTES);
+}
+
+.events .tab .events_tab
+.events_tab_head {
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 30px;
+  font-family: var(--fontTES);
+  color: var(--pinkTES);
+  letter-spacing: 2px;
+}
+
+.events .tab .events_tab .events_tab_body .events_tab_row {
+  border-bottom: 1px var(--whiteTES) solid;
+}
+
+.events .tab .events_tab .events_tab_body
+.events_tab_row .events_tab_data {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+    /*===|| M E D I A S ||===*/
+
+@media screen and (min-width: 1024px){
+  .events .tab .events_tab {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
 
 /*=======================================
 ===| P O S T E D  S E C T I O N  |=======
