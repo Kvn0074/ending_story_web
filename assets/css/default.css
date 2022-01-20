@@ -25,6 +25,17 @@
   }
 }
 
+@keyframes flash {
+  from {
+    font-size: 1em;
+    padding: 20px;
+  } to {
+    font-size: 1.2em;
+    padding: 18px;
+  }
+
+}
+
 @font-face {
   font-family: 'arcan';
   src: url(../fonts/Arcane-Nine.ttf);
@@ -45,7 +56,7 @@ img {
 
 h1, h2 {
   font-family: var(--fontTES);
-  color: var(--pinkTES);;
+  color: var(--pinkTES);
   text-align: left;
   padding: 20px;
   padding-bottom: 0px;
@@ -94,11 +105,15 @@ nav .navbar-brand {
   width: 65%;
 }
 
-nav .navbar-collapse .navbar-nav .nav-item .nav-link{
+nav .navbar-collapse .navbar-nav .nav-item .nav-link {
   text-align: right;
   padding-right: 20px;
 }
 
+nav .navbar-collapse .navbar-nav .nav-item .event_link {
+  color: var(--pinkTES);
+  animation: 0.5s linear 0s infinite alternate-reverse flash;
+}
     /*===|| M E D I A S ||===*/
 
 @media screen and (min-width: 768px){
@@ -339,7 +354,7 @@ main .choose .choose_text {
 }
 
 /*=======================================
-===| P O S T  S E C T I O N  |===========
+===| P O S T E D  S E C T I O N  |=======
 ======================= posted ========*/
 
 .posted .posted_body {
