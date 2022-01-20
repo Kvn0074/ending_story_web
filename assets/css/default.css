@@ -243,218 +243,6 @@ main .choose .choose_text {
 }
 
 /*=======================================
-====| H I S T O R Y  S E C T I O N  |====
-=========================== we_are ====*/
-
-.we_are .history .img_2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/*margin au text*/
-
-/*=======================================
-====| P R I C E  S E C T I O N  |========
-======================= conditions ====*/
-
-.conditions .price .age {
-  text-align: center;
-  padding-top: 0;
-  margin-bottom: 30px;
-}
-
-.conditions .price .price_tab {
-  text-align: center;
-  margin-bottom: 0;
-  padding-bottom: 5px;
-}
-
-/*=======================================
-===| E X E C U T I O N  S E C T I O N  |=
-======================= states ========*/
-
-.states .execut .carousel .carousel-inner
-.carousel_explic_div {
-  background: var(--whiteTES);;
-  color: var(--blackTES);;
-  -webkit-box-shadow: var(--shadowTES);
-  box-shadow: var(--shadowTES);
-}
-
-.states .execut .carousel .carousel-inner
-.carousel_explic_div .title_explic_div {
-  padding-top: 10px;
-  padding-left: 10px;
-  color: var(--pinkTES);;
-  font-family: var(--fontTES);
-  letter-spacing: 2px;
-}
-
-.states .execut .carousel .carousel-inner
-.carousel_explic_div .text_explic_div {
-  padding-top: 0px;
-  padding-bottom: 30px;
-}
-
-.states .execut .text_party_2 {
-  padding-top: 35px;
-}
-
-/*=======================================
-===| E N D I N G  S E C T I O N  |=======
-======================= states ========*/
-
-.states .ending .ending_img {
-  margin-bottom: 50px;
-}
-
-/*=======================================
-===| F O R M  S E C T I O N  |===========
-======================= form ==========*/
-
-.form .form_body {
-  width: 100%;
-  margin: auto;
-  background-color: rgba(0,0,0,.75);
-  color: var(--whiteTES);
-  border-radius: 5px;
-  padding: 50px;
-
-}
-
-.form .form_body .form_form .form_input {
-  padding: 15px;
-  width: 100%;
-  font-size: 1em;
-  border: 0;
-  color: var(--pinkTES);
-  background-color: var(--blackTES);
-  margin-bottom: 15px;
-}
-
-.form .form_body .form_form .form_label {
-  width: 100%;
-  color: var(--pinkTES);
-}
-
-.form .form_body .form_form .form_range {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 15px;
-  font-size: 1em;
-}
-
-.form .form_body .form_form .form_button {
-  background: var(--gradientTES);
-  color: var(--blackTES);
-  padding: 15px;
-  width: 100%;
-  font-size: 1em;
-  font-weight: bold;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-}
-
-/*=======================================
-===| P U B L I C  S E C T I O N  |=======
-======================= events ========*/
-
-.events .meeting .meeting_div {
-  width: 80%;
-  padding: 15px;
-  border: 2px var(--pinkTES) solid;
-  border-radius: 2px;
-  margin: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.events .tab {
-  margin-bottom: 50px;
-}
-
-.events .tab .events_tab {
-  margin-left: 20px;
-  width: 80%;
-  border-radius: 5px;
-  -webkit-box-shadow: var(--shadowTES);
-  box-shadow: var(--shadowTES);
-}
-
-.events .tab .events_tab
-.events_tab_head {
-  padding-left: 10px;
-  text-align: left;
-  padding-top: 30px;
-  font-family: var(--fontTES);
-  color: var(--pinkTES);
-  letter-spacing: 2px;
-}
-
-.events .tab .events_tab .events_tab_body .events_tab_row {
-  border-bottom: 1px var(--whiteTES) solid;
-}
-
-.events .tab .events_tab .events_tab_body
-.events_tab_row .events_tab_data {
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-    /*===|| M E D I A S ||===*/
-
-@media screen and (min-width: 1024px){
-  .events .tab .events_tab {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-
-
-
-/*=======================================
-===| P O S T E D  S E C T I O N  |=======
-======================= posted ========*/
-
-.posted .posted_body {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  background-color: rgba(0,0,0,.75);
-  color: var(--whiteTES);
-  border-radius: 5px;
-  padding: 50px;
-  text-align: center;
-}
-
-.posted .posted_body .posted_img {
-  width: 30%;
-  margin: 20px;
-  animation: 1.5s linear 0s infinite alternate-reverse rotation;
-}
-
-.posted .posted_body .posted_title,
-.posted .posted_body .posted_text {
-  text-align: center;
-}
-
-    /*===|| M E D I A S ||===*/
-
-@media screen and (min-width: 768px){
-  .posted .posted_body .posted_img {
-    width: 15%;
-  }
-}
-
-
-/*=======================================
 =======| P A R T  S E C T I O N |========
 ======================= home ==========*/
 
@@ -565,6 +353,215 @@ footer {
   background: var(--gradientTES);
   text-align: center;
   font-family: var(--fontTES);
+}
+
+/*=======================================
+====| H I S T O R Y  S E C T I O N  |====
+=========================== we_are ====*/
+
+.we_are .history .img_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*margin au text*/
+
+/*=======================================
+====| P R I C E  S E C T I O N  |========
+======================= conditions ====*/
+
+.conditions .price .age {
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+.conditions .price .price_tab {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+/*=======================================
+===| E X E C U T I O N  S E C T I O N  |=
+======================= states ========*/
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div {
+  background: var(--whiteTES);;
+  color: var(--blackTES);;
+  -webkit-box-shadow: var(--shadowTES);
+  box-shadow: var(--shadowTES);
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div .title_explic_div {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: var(--pinkTES);;
+  font-family: var(--fontTES);
+  letter-spacing: 2px;
+}
+
+.states .execut .carousel .carousel-inner
+.carousel_explic_div .text_explic_div {
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.states .execut .text_party_2 {
+  padding-top: 35px;
+}
+
+/*=======================================
+===| E N D I N G  S E C T I O N  |=======
+======================= states ========*/
+
+.states .ending .ending_img {
+  margin-bottom: 50px;
+}
+
+
+/*=======================================
+===| P U B L I C  S E C T I O N  |=======
+======================= events ========*/
+
+.events .meeting .meeting_div {
+  width: 80%;
+  padding: 15px;
+  border: 2px var(--pinkTES) solid;
+  border-radius: 2px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events .tab {
+  margin-bottom: 50px;
+}
+
+.events .tab .events_tab {
+  margin-left: 20px;
+  width: 80%;
+  border-radius: 5px;
+  -webkit-box-shadow: var(--shadowTES);
+  box-shadow: var(--shadowTES);
+}
+
+.events .tab .events_tab
+.events_tab_head {
+  padding-left: 10px;
+  text-align: left;
+  padding-top: 30px;
+  font-family: var(--fontTES);
+  color: var(--pinkTES);
+  letter-spacing: 2px;
+}
+
+.events .tab .events_tab .events_tab_body .events_tab_row {
+  border-bottom: 1px var(--whiteTES) solid;
+}
+
+.events .tab .events_tab .events_tab_body
+.events_tab_row .events_tab_data {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+    /*===|| M E D I A S ||===*/
+
+@media screen and (min-width: 1024px){
+  .events .tab .events_tab {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*=======================================
+===| F O R M  S E C T I O N  |===========
+======================= form ==========*/
+
+.form .form_body {
+  width: 100%;
+  margin: auto;
+  background-color: rgba(0,0,0,.75);
+  color: var(--whiteTES);
+  border-radius: 5px;
+  padding: 50px;
+
+}
+
+.form .form_body .form_form .form_input {
+  padding: 15px;
+  width: 100%;
+  font-size: 1em;
+  border: 0;
+  color: var(--pinkTES);
+  background-color: var(--blackTES);
+  margin-bottom: 15px;
+}
+
+.form .form_body .form_form .form_label {
+  width: 100%;
+  color: var(--pinkTES);
+}
+
+.form .form_body .form_form .form_range {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 15px;
+  font-size: 1em;
+}
+
+.form .form_body .form_form .form_button {
+  background: var(--gradientTES);
+  color: var(--blackTES);
+  padding: 15px;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+/*=======================================
+===| P O S T E D  S E C T I O N  |=======
+======================= posted ========*/
+
+.posted .posted_body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: rgba(0,0,0,.75);
+  color: var(--whiteTES);
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+}
+
+.posted .posted_body .posted_img {
+  width: 30%;
+  margin: 20px;
+  animation: 1.5s linear 0s infinite alternate-reverse rotation;
+}
+
+.posted .posted_body .posted_title,
+.posted .posted_body .posted_text {
+  text-align: center;
+}
+
+    /*===|| M E D I A S ||===*/
+
+@media screen and (min-width: 768px){
+  .posted .posted_body .posted_img {
+    width: 15%;
+  }
 }
 
 /*=======================================
