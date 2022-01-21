@@ -55,7 +55,7 @@ img {
 }
 
 h1, h2 {
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
   color: var(--pinkTES);
   text-align: left;
   padding: 20px;
@@ -65,7 +65,7 @@ h1, h2 {
 }
 
 h3 {
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
   color: var(--pinkTES);;
   text-align: left;
   padding-left: 30px;
@@ -162,7 +162,7 @@ header  {
 .head_home .head_home_button {
   background: none;
   color: var(--whiteTES);
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
   font-size: 1em;
   letter-spacing: 2px;
   border: 3px var(--whiteTES) solid;
@@ -300,7 +300,7 @@ main .call_section .call_div .call_img {
 main .call_section .button_call {
   background: none;
   color: var(--whiteTES);
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
   font-size: 1em;
   letter-spacing: 2px;
   border: 3px var(--whiteTES) solid;
@@ -356,7 +356,7 @@ footer {
   background: var(--pinkTES);
   background: var(--gradientTES);
   text-align: center;
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
 }
 
 /*=======================================
@@ -403,7 +403,7 @@ footer {
   padding-top: 10px;
   padding-left: 10px;
   color: var(--pinkTES);;
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
   letter-spacing: 2px;
 }
 
@@ -457,7 +457,7 @@ footer {
   padding-left: 10px;
   text-align: left;
   padding-top: 30px;
-  font-family: var(--fontTES);
+  font-family: var(--fontTES), Arial, sans-serif;
   color: var(--pinkTES);
   letter-spacing: 2px;
 }
