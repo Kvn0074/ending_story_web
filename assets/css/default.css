@@ -531,6 +531,7 @@ footer {
   font-weight: bold;
   border-radius: 5px;
   border: 0;
+  text-align: center;
   cursor: pointer;
 }
 
